@@ -83,5 +83,12 @@ body {
         height: 100%;
         width: 35vw;
         padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
     }
+}
+
+@keyframes showSiderbar {
+    from {margin-left: -100vw;}
+    top {margin-left: -10vw;}
 }
